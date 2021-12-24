@@ -1,0 +1,306 @@
+
+/* .row{
+  border: 1px green ridge;  
+} */
+.borders{
+  border: blueviolet 1px dashed;
+}
+/* ****************************************************** */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.container{
+  border:1px red dashed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* height: 100vh; */
+
+  flex-wrap: wrap;
+}
+.col {
+
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  /* padding: 50px; */
+  min-width: 50%;
+  border: blueviolet 1px dashed;
+  /* border: 1px rgb(223, 0, 67) ridge;   */
+}
+/* ******************************************************* */
+#sideicon{
+  width: 61px;
+  height: 36.6px;
+  /* left: 40px; */
+  /* top: 48px; */
+  overflow: visible;
+  margin: 48px 0px 0px 40px;
+
+}
+#firstletter{
+  width: 30px;
+  height: 36px;
+  overflow: visible;
+}
+#secondletter{
+  width: 30px;
+  height: 36px;
+  overflow: visible;
+}
+.Path_1{
+  width: 30px;
+  height: 36px;
+  transform: matrix(1,0,0,1,0,0);
+}
+.Path_2{
+  width: 30px;
+  height: 36px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#hamburger-menu {
+  width: 24.75px;
+  height: 22.5px;
+  overflow: visible;
+  margin:0px 100px 0px 40px;
+
+}
+/* *********************************************************** */
+#intro{
+  overflow: visible;
+  width: 265px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 24px;
+  color: rgba(54,54,54,1);
+
+  padding: 20px 10px 28px 0px;
+}
+#Hello_There {
+  overflow: visible;
+  width: 184px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  color: rgba(54,54,54,1);
+}
+#buttonMyWorks {
+  /* position: absolute; */
+  width: 138px;
+  height: 40px;
+  left: 40px;
+  top: 321px;
+  overflow: visible;
+}
+#Rectangle {
+  fill: rgba(152,215,226,1);
+}
+.Rectangle{
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+  overflow: visible;
+  width: 156px;
+  height: 58px;
+}
+#My_Works {
+ 
+  overflow: visible;
+  width: 71px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 16px;
+  color: rgba(54,54,54,1);
+}
+.intro-col{
+  padding: 40px 0px 15px 45px;
+  margin: 0;
+  
+}
+#pattern-01 {
+  /* position: absolute; */
+  width: 346px;
+  height: 321px;
+  overflow: visible;
+}
+#CV-block{
+  width: 309px;
+  height: 223px;
+  padding-top: 48px;
+  position: relative;
+}
+#Im_Beatris_nice_to_meet_you_Si {
+  overflow: visible;
+  width: 288px;
+  height: 157px;
+  line-height: 17px;
+  margin-top: -0.5px;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 16px;
+  color: rgba(54,54,54,1);
+}
+#WHO_AM_I_ {
+  overflow: visible;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  color: rgba(54,54,54,1);
+}
+#beatris-photo {
+  padding-top: 64px;
+  width: 397px;
+  
+  overflow: visible;
+}
+#ABOUT {
+  white-space: nowrap;
+  text-align: left;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  color: rgba(237,237,237,1);
+}
+#ABOUT {
+  transform: translate(-36px, -688px) matrix(1,0,0,1,121,792) rotate(90deg);
+  transform-origin: center;
+  /* left: 0px;
+  top: 0px; */
+  
+  overflow: visible;
+  width: 329px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  color: rgba(237,237,237,1);
+  
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  position: absolute;
+}
+#pattern-04 {
+
+  width: 223.873px;
+  overflow: visible;
+  padding-top: 111px;
+}
+#MY_WORKS {
+  padding-right: 15px;
+padding-top: 25px;
+  overflow: visible;
+  width: 180px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  color: rgba(54,54,54,1);
+}
+#MY_WORKS {
+  white-space: nowrap;
+  text-align: left;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  color: rgba(54,54,54,1);
+}
+#PORTFOLIO {
+
+  transform: matrix(1,0,0,1,-215.5,176) rotate(270deg);
+  transform-origin: center;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 534px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  color: rgba(237,237,237,1);
+  z-index: -1;
+}
+#Roomies {
+
+  width: 406px;
+  height: 286px;
+  overflow: visible;
+}
+.workimg{
+  width: 406px;
+  height: 286px;
+  overflow: visible;
+}
+
+.worktxt{
+  white-space: nowrap;
+text-align: left;
+font-family: Roboto;
+font-style: normal;
+font-weight: lighter;
+font-size: 16px;
+fill: rgb(255, 255, 255);
+}
+
+.Rectangleblack {
+  position: absolute;
+  overflow: visible;
+  width: 117px;
+  height: 46px;
+  left: 0px;
+  top: 0px;
+}
+
+#Rectangleblack{
+  fill: rgba(54,54,54,1);
+}
+.digitalDesign{
+  text-align: left;
+font: normal normal normal 24px/32px Roboto Slab;
+letter-spacing: 0px;
+color: #363636;
+opacity: 1;
+  
+}
+
+.maincarousel{
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+
+width: 402.5px;
+height: 357px;
+
+overflow: visible;
+}
+.carouselimg{
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+
+width: 72px;
+height: 84px;
+
+overflow: visible;
+}

@@ -1,0 +1,80 @@
+
+/* layout */
+.container{
+    border: 1px rgb(123, 182, 55) dashed;
+
+
+}
+.columns{
+    border: 1px rgb(247, 106, 106) dashed;
+}
+.col{
+    border: 1px rgb(119, 35, 197) dashed;
+}
+
+.borders{
+    border: 1px black dashed;
+    display: inline-flex;
+}
+
+
+
+.section{
+    display: flex;
+    width: 100%;
+    /*height: 100%; */
+}
+
+#Web_1366__4{
+    width: 100%;
+}
+
+#pattern-01{
+    width: 61%;
+    left: 39.66%;
+    /* top:11%; */
+}
+
+#Group_3{
+    width: 6.6%;
+}
+
+#Hello_There{
+    width: 38.16%;
+}
+
+#Group_4{
+  width: 52.66%;  
+}
+
+#My_name_is_Beatris_Im_a_graphi{
+    width: 22.08%;
+    left: 3.5%;
+
+    
+}
+
+#Hello_There{
+   font-size: 8.6rem; 
+}
+
+#intro_text{
+    width: 40.5%;
+}
+
+@media screen and (max-width: 480px) {
+    #pattern-01{
+        /* width: 28.88%; */
+        /*left: 10.16%; */
+        /* top:11%; */
+
+        position: absolute;
+        width: 346px;
+        height: 321px;
+        left: 122px;
+        top: 310px;
+        overflow: visible; 
+    }
+
+    
+}

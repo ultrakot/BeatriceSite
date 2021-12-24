@@ -1,0 +1,99 @@
+.introbigtxt{    
+    text-align: left;
+    font: normal normal bold 30px/37px Roboto;
+    letter-spacing: 0px;
+    color: #3D4351;
+    opacity: 1;
+}
+
+
+.backgroundPink{
+    background-color: #F6A5BF;
+}
+
+
+.intro{    
+    background-image: url(../Bonnieimages/background.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+
+.introtxt{    
+    text-align: left;
+    font: normal normal normal 32px/38px Roboto;
+    letter-spacing: 0px;
+    color: #3D4351;
+    
+    opacity: 1;
+}
+
+.regulartxt{
+    font: normal normal normal 20px/27px Roboto;
+    letter-spacing: 0px;
+    color: #3D4351;
+    opacity: 1;
+
+}
+.boldtxt
+{
+    font: normal normal bold 32px/38px Roboto;
+    letter-spacing: 0px;
+    color: #3D4351;
+    opacity: 1;
+}
+.smoltxt{
+    text-align: left;
+    font: normal medium 20px/24px Roboto;
+    letter-spacing: 0px;
+    color: #3D4351;
+    opacity: 1;
+}
+.bignumber{
+    text-align: center;
+    font: normal normal 900 300px/360px Roboto;
+    letter-spacing: 0px;
+    color: #F6A5BF;
+    opacity: 1;
+}
+.bignumberodd{
+    text-align: center;
+    font: normal normal 900 300px/360px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.plonitxt{ 
+   text-align: left;
+   font: normal normal normal 16px/36px Ploni DL 1.1 AAA;
+   letter-spacing: 4.75px;
+    color: #3D4351;
+   opacity: 1;
+}
+.ploniploni{
+    font: normal normal normal 40px/59px Ploni DL 1.1 AAA;
+    letter-spacing: 0px;
+    color: #3D4351;
+    opacity: 1;
+}
+.bigA{
+    width: 126px;
+    height: 135px;    
+    text-align: center;
+    /* font: normal normal bold 113px/167px Ploni DL 1.1 AAA; */
+    font: normal normal 113px/167px Roboto;
+    letter-spacing: 0px;
+    color: #3D4351;
+    opacity: 1;
+    
+}
+.mainimage{
+    align-self:flex-end;
+    align-content: flex-end;
+    overflow: visible;
+}
+.maintxt{
+    align-self: flex-start;
+    align-content:flex-start;
+}

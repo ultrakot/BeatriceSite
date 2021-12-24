@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+.borders{
+    border: blueviolet 1px dashed;
+}
+ 
+  .container{
+    border:1px red dashed;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    height: 50%;
+   
+    width: 100%;
+  }
+  .col {  
+    position: relative;  
+    display: flex;
+    flex-direction: column;
+
+
+    /* min-width: 50%; */
+    border: blueviolet 1px dashed;
+    
+  }
+  /* ******************************************************* */
+
+  .intro{    
+    /* background-image: url(../Bonnieimages/background.svg); */
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+}

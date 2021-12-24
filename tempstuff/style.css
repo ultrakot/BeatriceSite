@@ -1,0 +1,1123 @@
+.mediaViewInfo {
+    --web-view-name: Web 1366 – 4;
+    --web-view-id: Web_1366__4;
+    --web-enable-deep-linking: true;
+}
+:root {
+    --web-view-ids: Web_1366__4;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#Web_1366__4 {
+    position: absolute;
+    /* width: 1200px; */
+    height: 4978px;
+    background-color: rgba(255,255,255,1);
+    overflow: hidden;
+    --web-view-name: Web 1366 – 4;
+    --web-view-id: Web_1366__4;
+    --web-enable-deep-linking: true;
+}
+#Group_3 {
+    position: absolute;
+    /* width: 80px; */
+    height: 48px;
+    left: 44px;
+    top: 40px;
+    overflow: visible;
+}
+#Group_1 {
+    position: absolute;
+    width: 39.526px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Path_1 {
+    fill: rgba(26,24,24,1);
+}
+.Path_1 {
+    overflow: visible;
+    position: absolute;
+    width: 39.526px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Group_2 {
+    position: absolute;
+    width: 39.526px;
+    height: 48px;
+    left: 40.474px;
+    top: 0px;
+    overflow: visible;
+}
+#Path_2 {
+    fill: rgba(26,24,24,1);
+}
+.Path_2 {
+    overflow: visible;
+    position: absolute;
+    width: 39.526px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#pattern-01 {
+    position: absolute;
+    /* width: 731px; */
+    height: 679px;
+    /* left: 476px; */
+    top: 132px;
+    overflow: visible;
+}
+#Hello_There {
+    left: 42px;
+    top: 203px;
+    position: absolute;
+    overflow: visible;
+    /* width: 458px; */
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    /* font-size: 80px; */
+    color: rgba(54,54,54,1);
+}
+#My_name_is_Beatris_Im_a_graphi {
+    /* left: 42px; */
+    top: 333px; 
+    position: absolute;
+    overflow: visible;
+    /* width: 265px; */
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 24px;
+    color: rgba(54,54,54,1);
+}
+#Component_1__7 {
+    position: absolute;
+    width: 112px;
+    height: 40px;
+    left: 42px;
+    top: 452px;
+    overflow: visible;
+}
+#Rectangle_2 {
+    fill: rgba(152,215,226,1);
+}
+.Rectangle_2 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 130px;
+    height: 58px;
+    left: 0px;
+    top: 0px;
+}
+#My_Works {
+    left: 21px;
+    top: 11px;
+    position: absolute;
+    overflow: visible;
+    width: 71px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(54,54,54,1);
+}
+#Group_4 {
+    position: absolute;
+    /* width: 632px; */
+    height: 27px;
+    left: 356px;
+    top: 51px;
+    overflow: visible;
+}
+#HOME {
+    left: 18.5px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 46px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(54,54,54,1);
+}
+#ABOUT {
+    left: 146px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 53px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(54,54,54,1);
+}
+#UIUX {
+    left: 262px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 43px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(54,54,54,1);
+}
+#DIGITAL_DESIGN {
+    left: 368px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 119px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(54,54,54,1);
+}
+#CONTACT {
+    left: 560px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 73px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(54,54,54,1);
+}
+#Line_1 {
+    fill: transparent;
+    stroke: rgba(54,54,54,1);
+    stroke-width: 4px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_1 {
+    overflow: visible;
+    position: absolute;
+    width: 82px;
+    height: 4px;
+    left: 0px;
+    top: 27px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#pattern-0-03 {
+    position: absolute;
+    width: 625px;
+    height: 636px;
+    left: -36px;
+    top: 801px;
+    overflow: visible;
+}
+#ABOUT_ {
+    transform: matrix(1,0,0,1,854,1054) rotate(90deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 329px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    color: rgba(237,237,237,1);
+}
+#WHO_AM_I_ {
+    left: 702px;
+    top: 1001px;
+    position: absolute;
+    overflow: visible;
+    width: 361px;
+    height: 79px;
+    text-align: left;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    color: rgba(54,54,54,1);
+}
+#Im_Beatris_nice_to_meet_you__S {
+    left: 702px;
+    top: 1096px;
+    position: absolute;
+    overflow: visible;
+    width: 361px;
+    height: 117px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(54,54,54,1);
+}
+#Component_1__8 {
+    position: absolute;
+    width: 138px;
+    height: 40px;
+    left: 813px;
+    top: 1245px;
+    overflow: visible;
+}
+#Rectangle_2_ {
+    fill: rgba(152,215,226,1);
+}
+.Rectangle_2_ {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 156px;
+    height: 58px;
+    left: 0px;
+    top: 0px;
+}
+#Download_CV {
+    left: 22px;
+    top: 11px;
+    position: absolute;
+    overflow: visible;
+    width: 95px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(54,54,54,1);
+}
+#PORTFOLIO {
+    transform: matrix(1,0,0,1,-184.5,1743.5) rotate(270deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 534px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    color: rgba(237,237,237,1);
+}
+#MY_WORKS {
+    left: 43px;
+    top: 1594px;
+    position: absolute;
+    overflow: visible;
+    width: 336px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    color: rgba(54,54,54,1);
+}
+#UIUX_ {
+    left: 43px;
+    top: 1681px;
+    position: absolute;
+    overflow: visible;
+    width: 72px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(54,54,54,1);
+}
+#pattern-04 {
+    position: absolute;
+    width: 302px;
+    height: 98.669px;
+    left: 872px;
+    top: 1584.166px;
+    overflow: visible;
+}
+#PORTFOLIO_bb {
+    transform: matrix(1,0,0,1,-186.5,3040.5) rotate(270deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 534px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    color: rgba(237,237,237,1);
+}
+#MY_WORKS_bc {
+    left: 41px;
+    top: 2891px;
+    position: absolute;
+    overflow: visible;
+    width: 336px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    color: rgba(54,54,54,1);
+}
+#DIGITAL_DESIGN_bd {
+    left: 41px;
+    top: 2978px;
+    position: absolute;
+    overflow: visible;
+    width: 188px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(54,54,54,1);
+}
+#pattern-05 {
+    position: absolute;
+    width: 302px;
+    height: 98.669px;
+    left: 881px;
+    top: 2881.166px;
+    overflow: visible;
+}
+#ID101272587_2880361215396329_5 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    width: 548px;
+    height: 584px;
+    left: 326px;
+    top: 3026px;
+    overflow: visible;
+}
+#ID109864751_3008600759239040_4 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    width: 79px;
+    height: 84px;
+    left: 419px;
+    top: 3668px;
+    overflow: visible;
+}
+#ID73223707_2951264204972696_75 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    width: 78px;
+    height: 84px;
+    left: 514px;
+    top: 3668px;
+    overflow: visible;
+}
+#ID107427259_2976719389093844_5 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    width: 78px;
+    height: 84px;
+    left: 608px;
+    top: 3668px;
+    overflow: visible;
+}
+#ID108246550_2995484930550623_1 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    width: 78px;
+    height: 84px;
+    left: 702px;
+    top: 3668px;
+    overflow: visible;
+}
+#sio-03 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    width: 78px;
+    height: 84px;
+    left: 796px;
+    top: 3668px;
+    overflow: visible;
+}
+#ID101272587_2880361215396329_5_bl {
+    opacity: 0.5;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    width: 78px;
+    height: 84px;
+    left: 326px;
+    top: 3668px;
+    overflow: visible;
+}
+#right-arrow_1 {
+    position: absolute;
+    width: 31.264px;
+    height: 53.216px;
+    left: 919.952px;
+    top: 3291px;
+    overflow: visible;
+}
+#Group_11 {
+    position: absolute;
+    width: 31.264px;
+    height: 53.216px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Path_3 {
+    fill: rgba(54,54,54,1);
+}
+.Path_3 {
+    overflow: visible;
+    position: absolute;
+    width: 31.264px;
+    height: 53.216px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#CONTACT_bp {
+    transform: matrix(1,0,0,1,893,4075) rotate(90deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 453px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    color: rgba(237,237,237,1);
+}
+#LETS_TALK {
+    left: 818px;
+    top: 3976px;
+    position: absolute;
+    overflow: visible;
+    width: 339px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    color: rgba(54,54,54,1);
+}
+#pattern-07 {
+    position: absolute;
+    width: 343px;
+    height: 876px;
+    left: -2px;
+    top: 4014px;
+    overflow: visible;
+}
+#Group_17 {
+    position: absolute;
+    width: 360px;
+    height: 729px;
+    left: 420px;
+    top: 4109px;
+    overflow: visible;
+}
+#Group_16 {
+    position: absolute;
+    width: 360px;
+    height: 641px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Contact_Mail-klover759gmailcom {
+    left: 4px;
+    top: 7px;
+    position: absolute;
+    overflow: visible;
+    width: 251px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(54,54,54,1);
+    text-decoration: underline;
+}
+#linkedin-01 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 335px;
+    top: 0px;
+    overflow: visible;
+}
+#First_Name {
+    left: 0px;
+    top: 82px;
+    position: absolute;
+    overflow: visible;
+    width: 78px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(54,54,54,1);
+}
+#Last_Name {
+    left: 0px;
+    top: 205px;
+    position: absolute;
+    overflow: visible;
+    width: 78px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(54,54,54,1);
+}
+#Email {
+    left: 0px;
+    top: 328px;
+    position: absolute;
+    overflow: visible;
+    width: 40px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(54,54,54,1);
+}
+#Phone {
+    left: 4px;
+    top: 451px;
+    position: absolute;
+    overflow: visible;
+    width: 46px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(54,54,54,1);
+}
+#Type_your_massage_here {
+    left: 4px;
+    top: 574px;
+    position: absolute;
+    overflow: visible;
+    width: 184px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(54,54,54,1);
+}
+#Line_3 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_3 {
+    overflow: visible;
+    position: absolute;
+    width: 360px;
+    height: 1px;
+    left: 0px;
+    top: 272px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Line_4 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_4 {
+    overflow: visible;
+    position: absolute;
+    width: 360px;
+    height: 1px;
+    left: 0px;
+    top: 395px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Line_5 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_5 {
+    overflow: visible;
+    position: absolute;
+    width: 360px;
+    height: 1px;
+    left: 0px;
+    top: 518px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Line_6 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_6 {
+    overflow: visible;
+    position: absolute;
+    width: 360px;
+    height: 1px;
+    left: 0px;
+    top: 641px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Component_2__3 {
+    position: absolute;
+    width: 360px;
+    height: 0px;
+    left: 0px;
+    top: 149px;
+    overflow: visible;
+}
+#Line_2 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_2 {
+    overflow: visible;
+    position: absolute;
+    width: 360px;
+    height: 1px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Component_1__9 {
+    position: absolute;
+    width: 112px;
+    height: 40px;
+    left: 124px;
+    top: 689px;
+    overflow: visible;
+}
+#Rectangle_2_b {
+    fill: rgba(152,215,226,1);
+}
+.Rectangle_2_b {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 130px;
+    height: 58px;
+    left: 0px;
+    top: 0px;
+}
+#Submit {
+    left: 31px;
+    top: 11px;
+    position: absolute;
+    overflow: visible;
+    width: 51px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(54,54,54,1);
+}
+#_Beatris_Ritenband_Portfolio {
+    left: 549px;
+    top: 4927px;
+    position: absolute;
+    overflow: visible;
+    width: 183px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(54,54,54,1);
+}
+#Group_19 {
+    position: absolute;
+    width: 454px;
+    height: 286px;
+    left: 138px;
+    top: 1729px;
+    overflow: visible;
+}
+#AHHH {
+    position: absolute;
+    width: 454px;
+    height: 286px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#AHHH_cd {
+    position: absolute;
+    width: 454px;
+    height: 286px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Group_5 {
+    position: absolute;
+    width: 117px;
+    height: 46px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Rectangle_3 {
+    fill: rgba(54,54,54,1);
+}
+.Rectangle_3 {
+    position: absolute;
+    overflow: visible;
+    width: 117px;
+    height: 46px;
+    left: 0px;
+    top: 0px;
+}
+#Roomies {
+    left: 28px;
+    top: 13px;
+    position: absolute;
+    overflow: visible;
+    width: 63px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(255,255,255,1);
+}
+#Group_15 {
+    position: absolute;
+    width: 454px;
+    height: 286px;
+    left: 608px;
+    top: 1729px;
+    overflow: visible;
+}
+#bonnie_gallery {
+    position: absolute;
+    width: 454px;
+    height: 286px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Group_7 {
+    position: absolute;
+    width: 117px;
+    height: 46px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Rectangle_3_ck {
+    fill: rgba(54,54,54,1);
+}
+.Rectangle_3_ck {
+    position: absolute;
+    overflow: visible;
+    width: 117px;
+    height: 46px;
+    left: 0px;
+    top: 0px;
+}
+#Bonnie {
+    left: 35px;
+    top: 13px;
+    position: absolute;
+    overflow: visible;
+    width: 49px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(255,255,255,1);
+}
+#Group_18 {
+    position: absolute;
+    width: 454px;
+    height: 286px;
+    left: 608px;
+    top: 2031px;
+    overflow: visible;
+}
+#plant_you_gallery {
+    position: absolute;
+    width: 454px;
+    height: 286px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Group_8 {
+    position: absolute;
+    width: 117px;
+    height: 46px;
+    left: 1px;
+    top: 0px;
+    overflow: visible;
+}
+#Rectangle_3_cp {
+    fill: rgba(54,54,54,1);
+}
+.Rectangle_3_cp {
+    position: absolute;
+    overflow: visible;
+    width: 117px;
+    height: 46px;
+    left: 0px;
+    top: 0px;
+}
+#PlantYou {
+    left: 27px;
+    top: 13px;
+    position: absolute;
+    overflow: visible;
+    width: 64px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(255,255,255,1);
+}
+#Group_13 {
+    position: absolute;
+    width: 454px;
+    height: 286px;
+    left: 608px;
+    top: 2333px;
+    overflow: visible;
+}
+#Simple_Mockup_Free_Scene {
+    position: absolute;
+    width: 454px;
+    height: 286px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Group_9 {
+    position: absolute;
+    width: 117px;
+    height: 46px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Rectangle_3_cu {
+    fill: rgba(54,54,54,1);
+}
+.Rectangle_3_cu {
+    position: absolute;
+    overflow: visible;
+    width: 117px;
+    height: 46px;
+    left: 0px;
+    top: 0px;
+}
+#SmarTravel {
+    left: 19px;
+    top: 13px;
+    position: absolute;
+    overflow: visible;
+    width: 81px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(255,255,255,1);
+}
+#Group_12 {
+    position: absolute;
+    width: 454px;
+    height: 286px;
+    left: 138px;
+    top: 2333px;
+    overflow: visible;
+}
+#iMac_clay_4 {
+    position: absolute;
+    width: 454px;
+    height: 286px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Group_10 {
+    position: absolute;
+    width: 117px;
+    height: 46px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Rectangle_3_cz {
+    fill: rgba(54,54,54,1);
+}
+.Rectangle_3_cz {
+    position: absolute;
+    overflow: visible;
+    width: 117px;
+    height: 46px;
+    left: 0px;
+    top: 0px;
+}
+#Dashboard {
+    left: 21px;
+    top: 13px;
+    position: absolute;
+    overflow: visible;
+    width: 77px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(255,255,255,1);
+}
+#Group_14 {
+    position: absolute;
+    width: 454px;
+    height: 286px;
+    left: 138px;
+    top: 2031px;
+    overflow: visible;
+}
+#gallery_zigit {
+    position: absolute;
+    width: 454px;
+    height: 286px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Group_6 {
+    position: absolute;
+    width: 117px;
+    height: 46px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Rectangle_3_c {
+    fill: rgba(54,54,54,1);
+}
+.Rectangle_3_c {
+    position: absolute;
+    overflow: visible;
+    width: 117px;
+    height: 46px;
+    left: 0px;
+    top: 0px;
+}
+#Zigit {
+    left: 43px;
+    top: 13px;
+    position: absolute;
+    overflow: visible;
+    width: 32px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(255,255,255,1);
+}
+#linkedin-01_c {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    left: 1124px;
+    top: 45px;
+    overflow: visible;
+}
