@@ -1,0 +1,115 @@
+.background{
+    background-color: white;
+}
+.intro-block{
+    position: relative;
+}
+.intro-parent{
+    padding-top: 5em;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.intro-shape{
+
+    background: rgb(136, 149, 173);
+    height: 900px;
+    width: 100%;
+    position: absolute;
+    top: -41rem;
+    transform: skewY(168deg);
+    z-index: -1;
+}
+
+/* @media (max-width: 927px){     
+    #intro-img img{
+        width: 375px;       
+    }
+} */
+/* @media (max-width: 640px){
+      .intro-shape{
+        top: -43rem;
+        transform: skewY(144deg);
+    }    
+     #intro-img img{
+        width: 375px;       
+    }
+} */
+/*phone*/
+/* @media (max-width: 572px){
+    .intro-shape{        
+        top: -49rem;
+        transform: skewY(163deg);
+    }    
+}
+ */
+ #intro-img img{
+    width: 735px;  
+    align-items: stretch    
+}
+
+ @media (max-width:320px)  { 
+     /* smartphones, iPhone, portrait 480x320 phones */ 
+        #intro-img img{
+            width: 280px;       
+        }
+
+    }
+ 
+ @media (max-width:930px) {
+    .intro-shape{
+        top: -33rem;
+        transform: skewY(148deg);
+    }
+    #intro-icon{    
+        margin-left: auto;     
+    }
+ }    
+ @media (max-width:481px)  { 
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+       #intro-img img{
+           width: 375px;       
+       }
+       #intro-icon{
+          width: 60px;       
+          margin-left: auto;     
+       }
+       .intro-shape{
+           top: -38rem;
+           transform: skewY(149deg);
+       }
+
+}
+
+ /* @media (min-width:641px)  { 
+     /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones }*/ 
+    
+
+ 
+ /*@media (min-width:961px)  { 
+     /* tablet, landscape iPad, lo-res laptops ands desktops 
+        .intro-shape{
+            top: -43rem;
+            transform: skewY(144deg);
+        }    
+    }
+ @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops  }
+ @media (min-width:1281px) { hi-res laptops and desktops }*/
+
+
+
+
+
+
+.block-number{
+ 
+    overflow: visible;
+    width: 175px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 300px;
+    color: rgba(255,255,255,1);
+}
