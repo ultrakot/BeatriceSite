@@ -1,6 +1,13 @@
 .background{
     background-color: white;
 }
+#theme-icon{
+    top: 80px;
+    left: 30px;
+    width: 91px;
+    height: 91px;
+}
+
 .intro-block{
     position: relative;
 }
@@ -10,9 +17,9 @@
     z-index: 1;
     overflow: hidden;
 }
-.intro-shape{
+#enterence-background-shape{
 
-    background: rgb(136, 149, 173);
+    background: rgb(112, 187, 230);
     height: 900px;
     width: 100%;
     position: absolute;
@@ -27,13 +34,16 @@
     font-family: Roboto;
     font-weight: bold;
     font-size: 300px;
-    color: rgb(136, 149, 173);
+    color:  rgb(112, 187, 230);
     flex-shrink: 2;
     border: 1px dotted black;
     position: relative;
     width: 17%;
     justify-content: space-between;
 
+}
+.even-block{
+    background-color: rgb(112, 187, 230);;
 }
 .number-text{
     font: normal normal bold 2rem/2.5rem Roboto;
@@ -55,6 +65,13 @@
 }
 .block-text img{
     align-self: flex-end;
+}
+.block-text-gen{
+    text-align: left;
+    font: normal normal normal 16px/27px Roboto;
+    letter-spacing: 0px;
+    color: #3D4351;
+    font-size: 1.2em;
 }
 /* @media (max-width: 927px){     
     #intro-img img{
@@ -92,12 +109,13 @@
     }
  
  @media (max-width:930px) {
-    .intro-shape{
+    #enterence-background-shape{
         top: -33rem;
         transform: skewY(148deg);
     }
-    #intro-icon{    
-        margin-left: auto;     
+    #theme-icon{    
+        margin-left: auto; 
+
     }
  }    
  @media (max-width:481px)  { 
@@ -105,7 +123,7 @@
        #intro-img img{
            width: 375px;       
        }
-       #intro-icon{
+       #theme-icon{
           width: 60px;       
           margin-left: auto;     
        }
