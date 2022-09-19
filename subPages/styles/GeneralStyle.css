@@ -1,3 +1,4 @@
+/*general desing, independent of size*/
 .background{
     background-color: white;
 }
@@ -73,6 +74,76 @@
     color: #3D4351;
     font-size: 1.2em;
 }
+
+
+img{
+    width: 735px;  
+    align-items: stretch    
+}
+
+
+/*screen size specific design*/
+
+/* from smallest to biggest*/
+
+    /* smartphones, iPhone, portrait 480x320 phones */ 
+    @media (max-width:320px)  { 
+    
+       #intro-img img{
+           width: 280px;       
+       }
+   }
+
+   /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+   @media (max-width:481px)  { 
+    
+       #intro-img img{
+           width: 375px;       
+       }
+       #theme-icon{
+          width: 60px;       
+          margin-left: auto;     
+       }
+       .intro-shape{
+           top: -38rem;
+           transform: skewY(149deg);
+       }
+
+}
+
+
+    @media (max-width:930px) {
+    #enterence-background-shape{
+        top: -33rem;
+        transform: skewY(148deg);
+    }
+    #theme-icon{    
+        margin-left: auto; 
+
+    }
+ }    
+
+
+
+ /* @media (min-width:641px)  { 
+     /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones }*/ 
+    
+
+ 
+ /*@media (min-width:961px)  { 
+     /* tablet, landscape iPad, lo-res laptops ands desktops 
+        .intro-shape{
+            top: -43rem;
+            transform: skewY(144deg);
+        }    
+    }
+ @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops  }
+ @media (min-width:1281px) { hi-res laptops and desktops }*/
+
+
+
+
+
 /* @media (max-width: 927px){     
     #intro-img img{
         width: 375px;       
@@ -95,64 +166,4 @@
     }    
 }
  */
- #intro-img img{
-    width: 735px;  
-    align-items: stretch    
-}
-
- @media (max-width:320px)  { 
-     /* smartphones, iPhone, portrait 480x320 phones */ 
-        #intro-img img{
-            width: 280px;       
-        }
-
-    }
- 
- @media (max-width:930px) {
-    #enterence-background-shape{
-        top: -33rem;
-        transform: skewY(148deg);
-    }
-    #theme-icon{    
-        margin-left: auto; 
-
-    }
- }    
- @media (max-width:481px)  { 
-    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
-       #intro-img img{
-           width: 375px;       
-       }
-       #theme-icon{
-          width: 60px;       
-          margin-left: auto;     
-       }
-       .intro-shape{
-           top: -38rem;
-           transform: skewY(149deg);
-       }
-
-}
-
-
- /* @media (min-width:641px)  { 
-     /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones }*/ 
-    
-
- 
- /*@media (min-width:961px)  { 
-     /* tablet, landscape iPad, lo-res laptops ands desktops 
-        .intro-shape{
-            top: -43rem;
-            transform: skewY(144deg);
-        }    
-    }
- @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops  }
- @media (min-width:1281px) { hi-res laptops and desktops }*/
-
-
-
-
-
-
 
