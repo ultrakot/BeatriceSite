@@ -8,50 +8,66 @@
     width: 91px;
     height: 91px;
 }
-
-.intro-block{
-    position: relative;
+#enterence-img{
+    flex-grow: 2;
 }
-.intro-parent{
-    padding-top: 5em;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
+#theme-block{
+    padding: 3%; 
+    width: 35vw;
+}
+#theme-title{
+    font-size: 3em;
+    font-family: roboto;
+    width: 100%;
+    color: #373d47;
+}
+#theme-txt{
+   font-size: 2em; 
+   padding-left: 0; 
+}
+#enterence-img img{
+    width: 100%;
+    flex-grow: 3;
+    align-items: stretch ; 
+    padding-top: 9%;  
 }
 #enterence-background-shape{
 
     background: rgb(112, 187, 230);
-    height: 900px;
+    height: 889px;
     width: 100%;
     position: absolute;
-    top: -41rem;
-    transform: skewY(168deg);
+    top: -33rem;
+    transform: skewY(162deg);
     z-index: -1;
 }
+/*second block after enterence block*/
 .block-number{ 
+    /* flex-shrink: 1; */
     overflow: visible;    
     white-space: nowrap;
     text-align: center;
     font-family: Roboto;
     font-weight: bold;
-    font-size: 300px;
+    font-size: 21em;
     color:  rgb(112, 187, 230);
-    flex-shrink: 2;
-    border: 1px dotted black;
-    position: relative;
-    width: 17%;
+    padding-left: 5%;
     justify-content: space-between;
+    padding-left: 2%;
 
 }
+.big-number{
+    position: relative;
+}
+
 .even-block{
-    background-color: rgb(112, 187, 230);;
+    background-color: rgb(112, 187, 230);
 }
 .number-text{
     font: normal normal bold 2rem/2.5rem Roboto;
     font-weight: bold;
     align-content: center;
     text-align: center;
-    /* height: 1em; */
     color: #3D4351;
     position: absolute;
     top: 132px;
@@ -67,103 +83,91 @@
 .block-text img{
     align-self: flex-end;
 }
+.number-block-text-part{
+    flex-grow: 2;
+    width: 35vw;
+}
 .block-text-gen{
     text-align: left;
     font: normal normal normal 16px/27px Roboto;
     letter-spacing: 0px;
     color: #3D4351;
-    font-size: 1.2em;
+    font-size: 1.4em;
+    padding: 10%;
+    padding-bottom: 0;
+
+    font-weight: 400;
+   
+}
+.block-svg-img{
+  float: right;
+  padding-right: 5%;
 }
 
 
-img{
-    width: 735px;  
-    align-items: stretch    
-}
-
-
-/*screen size specific design*/
-
-/* from smallest to biggest*/
-
-    /* smartphones, iPhone, portrait 480x320 phones */ 
-    @media (max-width:320px)  { 
-    
-       #intro-img img{
-           width: 280px;       
-       }
-   }
-
-   /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
-   @media (max-width:481px)  { 
-    
-       #intro-img img{
-           width: 375px;       
-       }
-       #theme-icon{
-          width: 60px;       
-          margin-left: auto;     
-       }
-       .intro-shape{
-           top: -38rem;
-           transform: skewY(149deg);
-       }
-
-}
-
-
-    @media (max-width:930px) {
+/* small screen - change of position*/
+@media (max-width:1023px) {
     #enterence-background-shape{
         top: -33rem;
         transform: skewY(148deg);
     }
     #theme-icon{    
         margin-left: auto; 
-
     }
  }    
 
+ /*tablet*/
+    @media (max-width:768px){
+        #theme-block{
+            width: 100%;
+        }
+        #enterence-img img{
+            padding-top: 0;
+        }
+        #theme-txt{
+            padding: 0;
+            font-size: 1.5em;
+        }
+        #theme-title{
+            font-size: 2em;
+        }
+        .block-text-gen{
+            font-size: 1.5em;            
+        }
+        .number-block-text-part{
+            width: 100%;
+            padding: 0;
+        }
+        .big-number{
+            height: 0.4em;
+            z-index: -1;
+        }
+        #numbered-block{
+            justify-content: left;
+        }
+        #enterence-img img{
+            /* problem - image isnt cropped in the right*/
+        }
+    }
 
-
- /* @media (min-width:641px)  { 
-     /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones }*/ 
+    @media (max-width:481px)  { 
+    #enterence-background-shape{
+        top: -38rem;
+        transform: skewY(149deg);
+    }
+   #theme-icon{
+      width: 4em;
+      height: 4em;       
+      margin-left: auto;     
+   }
+   #theme-title{
+    padding: 0;
+   }
+}
     
 
- 
- /*@media (min-width:961px)  { 
-     /* tablet, landscape iPad, lo-res laptops ands desktops 
-        .intro-shape{
-            top: -43rem;
-            transform: skewY(144deg);
-        }    
-    }
- @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops  }
- @media (min-width:1281px) { hi-res laptops and desktops }*/
 
 
 
 
-
-/* @media (max-width: 927px){     
-    #intro-img img{
-        width: 375px;       
-    }
-} */
-/* @media (max-width: 640px){
-      .intro-shape{
-        top: -43rem;
-        transform: skewY(144deg);
-    }    
-     #intro-img img{
-        width: 375px;       
-    }
-} */
-/*phone*/
-/* @media (max-width: 572px){
-    .intro-shape{        
-        top: -49rem;
-        transform: skewY(163deg);
-    }    
-}
- */
 
